@@ -69,7 +69,7 @@ export type PlasmicTextInput__ArgsType = {
   placeholder?: string;
   endIcon?: React.ReactNode;
   startIcon?: React.ReactNode;
-  value?: any;
+  value?: string;
   name?: string;
   required?: boolean;
   "aria-label"?: string;
@@ -96,7 +96,7 @@ export type PlasmicTextInput__OverridesType = {
 
 export interface DefaultTextInputProps extends pp.BaseTextInputProps {
   placeholder?: string;
-  value?: any;
+  value?: string;
   name?: string;
   required?: boolean;
   "aria-label"?: string;
@@ -183,6 +183,14 @@ function PlasmicTextInput__RenderFunc(props: {
         initFunc: true
           ? ({ $props, $state, $queries, $ctx }) => $props.color
           : undefined
+      },
+      {
+        path: "value",
+        type: "writable",
+        variableType: "text",
+
+        valueProp: "value",
+        onChangeProp: "onChange"
       }
     ],
     [$props, $ctx]

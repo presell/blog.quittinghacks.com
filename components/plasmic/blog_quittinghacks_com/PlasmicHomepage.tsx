@@ -65,7 +65,6 @@ export type PlasmicHomepage__OverridesType = {
   form?: p.Flex<"form">;
   textInput?: p.Flex<typeof TextInput>;
   button?: p.Flex<typeof Button>;
-  textbox?: p.Flex<typeof TextInput>;
 };
 
 export interface DefaultHomepageProps {}
@@ -107,6 +106,20 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const currentUser = p.useCurrentUser?.() || {};
   const [$queries, setDollarQueries] = React.useState({});
+  const stateSpecs = React.useMemo(
+    () => [
+      {
+        path: "textInput.value",
+        type: "private",
+        variableType: "text",
+        initFunc: true
+          ? ({ $props, $state, $queries, $ctx }) => undefined
+          : undefined
+      }
+    ],
+    [$props, $ctx]
+  );
+  const $state = p.useDollarState(stateSpecs, { $props, $ctx, $queries });
 
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantseb1C4W44VP2JBty()
@@ -217,8 +230,14 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-name={"textInput"}
                 data-plasmic-override={overrides.textInput}
                 className={classNames("__wab_instance", sty.textInput)}
+                onChange={(...args) => {
+                  p.generateStateOnChangeProp($state, ["textInput", "value"])(
+                    (e => e.target?.value).apply(null, args)
+                  );
+                }}
                 placeholder={"Enter Your Email Address" as const}
                 required={true}
+                value={p.generateStateValueProp($state, ["textInput", "value"])}
               />
 
               <Button
@@ -238,11 +257,11 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "section", "img", "form", "textInput", "textbox", "button"],
-  section: ["section", "img", "form", "textInput", "textbox", "button"],
+  root: ["root", "section", "img", "form", "textInput", "button"],
+  section: ["section", "img", "form", "textInput", "button"],
   img: ["img"],
-  form: ["form", "textInput", "textbox", "button"],
-  textInput: ["textInput", "textbox"],
+  form: ["form", "textInput", "button"],
+  textInput: ["textInput"],
   button: ["button"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;

@@ -751,7 +751,6 @@ export type PlasmicDisposableCollection3__OverridesType = {
   leads?: p.Flex<"section">;
   img?: p.Flex<typeof p.PlasmicImg>;
   textInput?: p.Flex<typeof TextInput>;
-  textbox?: p.Flex<typeof TextInput>;
 };
 
 export interface DefaultDisposableCollection3Props {}
@@ -793,6 +792,20 @@ function PlasmicDisposableCollection3__RenderFunc(props: {
 
   const currentUser = p.useCurrentUser?.() || {};
   const [$queries, setDollarQueries] = React.useState({});
+  const stateSpecs = React.useMemo(
+    () => [
+      {
+        path: "textInput.value",
+        type: "private",
+        variableType: "text",
+        initFunc: true
+          ? ({ $props, $state, $queries, $ctx }) => undefined
+          : undefined
+      }
+    ],
+    [$props, $ctx]
+  );
+  const $state = p.useDollarState(stateSpecs, { $props, $ctx, $queries });
 
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantseb1C4W44VP2JBty()
@@ -11098,8 +11111,20 @@ function PlasmicDisposableCollection3__RenderFunc(props: {
                       data-plasmic-name={"textInput"}
                       data-plasmic-override={overrides.textInput}
                       className={classNames("__wab_instance", sty.textInput)}
+                      onChange={(...args) => {
+                        p.generateStateOnChangeProp($state, [
+                          "textInput",
+
+                          "value"
+                        ])((e => e.target?.value).apply(null, args));
+                      }}
                       placeholder={"Enter Your Email Address" as const}
                       required={true}
+                      value={p.generateStateValueProp($state, [
+                        "textInput",
+
+                        "value"
+                      ])}
                     />
                   ) : null}
 
@@ -11790,8 +11815,7 @@ const PlasmicDescendants = {
     "svg17",
     "leads",
     "img",
-    "textInput",
-    "textbox"
+    "textInput"
   ],
   _440Px: [
     "_440Px",
@@ -18024,9 +18048,9 @@ const PlasmicDescendants = {
   sparqLogo125Xpng3: ["sparqLogo125Xpng3"],
   div230: ["div230", "svg17"],
   svg17: ["svg17"],
-  leads: ["leads", "img", "textInput", "textbox"],
+  leads: ["leads", "img", "textInput"],
   img: ["img"],
-  textInput: ["textInput", "textbox"]
+  textInput: ["textInput"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
