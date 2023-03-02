@@ -1,0 +1,1075 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+      "projectApiToken": "F6HpB8DEcgE9bkuDBXR7CGDhXq9qvUBWSyRsrvWAc1sZwqNAryaxIC5WpvZVSUkB2qGkaENZM4ugQt5qcEwg",
+      "projectName": "blog.quittinghacks.com",
+      "version": "latest",
+      "cssFilePath": "plasmic/blog_quittinghacks_com/plasmic_blog_quittinghacks_com.module.css",
+      "components": [
+        {
+          "id": "CBJPzzI_h1xr",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/home.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "GDDUmvHddZAq4",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "9M7t0j8bdRZ4S",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "gXe0YDfDViP5J",
+          "name": "ThankYou",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicThankYou.tsx",
+          "importSpec": {
+            "modulePath": "../pages/thank-you.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicThankYou.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "qt6UjApPqTJkdN",
+          "name": "DisposableCollection",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableCollection.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableCollection.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "DDUUNTT7UR5vp9",
+          "name": "DisposableCollection2",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableCollection2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-2.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableCollection2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "FO77D1slIpEwby",
+          "name": "DisposableCollection3",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableCollection3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableCollection3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "GthAI3RieBaFkZ3",
+          "name": "DisposableInfo",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableInfo.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-info.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicDisposableInfo.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6Tam-StMvGcGNft",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6KYnJOqrCh-F712",
+          "name": "NewPage2",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-2.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "FaEkFDeEuXo3Hko",
+          "name": "Reviews",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicReviews.tsx",
+          "importSpec": {
+            "modulePath": "Reviews.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicReviews.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "VziSSrlhKD5bawa",
+          "name": "AsFeaturedIn",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicAsFeaturedIn.tsx",
+          "importSpec": {
+            "modulePath": "AsFeaturedIn.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicAsFeaturedIn.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Y6h81ex_og1nA1-",
+          "name": "NewPage22",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage22.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-3.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage22.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "oRYFpcMkPh8Gx5Y",
+          "name": "Blog",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicBlog.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-4.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicBlog.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "796xBC7XdnasF89",
+          "name": "DualOffer",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicDualOffer.tsx",
+          "importSpec": {
+            "modulePath": "../pages/dual-offer.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicDualOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "NktNSwx4TZMAA_F",
+          "name": "NewPage3",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-5.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "2y4NtcMbSRdo5eV",
+          "name": "NewPage4",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage4.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-6.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicNewPage4.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "NxVk5S0PEKebyKb",
+          "name": "Blog2",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicBlog2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-7.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicBlog2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "eF4NWpQgcn5QqkT",
+          "name": "ReviewCard",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicReviewCard.tsx",
+          "importSpec": {
+            "modulePath": "ReviewCard.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicReviewCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3WVjthEJh54fw4F",
+          "name": "SideCta",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicSideCta.tsx",
+          "importSpec": {
+            "modulePath": "SideCta.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicSideCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NED9CO3jugeeHna",
+          "name": "Blog3",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicBlog3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-8.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicBlog3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "nfsKTlIOc5LDlze",
+          "name": "ArticleNav",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicArticleNav.tsx",
+          "importSpec": {
+            "modulePath": "ArticleNav.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicArticleNav.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "n5CGdqB0PbBsQmF",
+          "name": "ArticleIntro",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicArticleIntro.tsx",
+          "importSpec": {
+            "modulePath": "ArticleIntro.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicArticleIntro.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "V_sIPVFjFQbgAvP",
+          "name": "ArticleBody",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicArticleBody.tsx",
+          "importSpec": {
+            "modulePath": "ArticleBody.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicArticleBody.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mOD_NLwQ1aU_ugs",
+          "name": "Offer",
+          "type": "managed",
+          "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+          "renderModuleFilePath": "plasmic/blog_quittinghacks_com/PlasmicOffer.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-9.tsx"
+          },
+          "cssFilePath": "plasmic/blog_quittinghacks_com/PlasmicOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "kAQuG3tnfExqhKU",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "k8uQsQcnp1I77Rh",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "bHTq8WEFgIGSRan",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "2Ip6Ezz72DjZvJ3",
+          "name": "FrameIcon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame.tsx"
+        },
+        {
+          "id": "S_ED8RmhRFiYqLT",
+          "name": "Frame2Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame2.tsx"
+        },
+        {
+          "id": "R2-SRRN8R0S1g5b",
+          "name": "Frame3Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame3.tsx"
+        },
+        {
+          "id": "W3FvqBoEK1AVCMJ",
+          "name": "Frame4Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame4.tsx"
+        },
+        {
+          "id": "p0a7WVGURkM92TR",
+          "name": "Frame5Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame5.tsx"
+        },
+        {
+          "id": "Qi4cm7ve2N8T9Q4",
+          "name": "Frame6Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame6.tsx"
+        },
+        {
+          "id": "a5JNlrkWf6nKgpU",
+          "name": "Frame7Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame7.tsx"
+        },
+        {
+          "id": "c0nXeINpnBQqyBH",
+          "name": "Frame8Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame8.tsx"
+        },
+        {
+          "id": "SuAFQWw2W00TTJD",
+          "name": "Frame9Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame9.tsx"
+        },
+        {
+          "id": "G8sQjVFUSTmo1o3",
+          "name": "Frame10Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame10.tsx"
+        },
+        {
+          "id": "3Mcv1oSn-cLWDhA",
+          "name": "Frame11Icon",
+          "moduleFilePath": "plasmic/blog_quittinghacks_com/icons/PlasmicIcon__Frame11.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "AXBF5OOTNZIzHmI",
+          "name": "Sparq_Logo_White.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sparqLogoWhitepng.png"
+        },
+        {
+          "id": "jk7eLGt4_9-z16S",
+          "name": "https___app.unbounce.com_publish_assets_4e7205ac-8938-11ed-b5b0-0242a3c829a5_3u3deu-sparq-black-logo_108c08c000000000000028.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/httpsAppunbouncecomPublishAssets4E7205Ac893811EdB5B00242A3C829A53U3DeuSparqBlackLogo108C08C000000000000028Png.png"
+        },
+        {
+          "id": "p-M2GJnE0x9P19g",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit 1.svg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/ladybaguette2020Img3156Edit1Svg.bin"
+        },
+        {
+          "id": "0aVhLuYvsubOdg3",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/ladybaguette2020Img3156Editjpg.jpeg"
+        },
+        {
+          "id": "wVmVz7kwHuXU4xg",
+          "name": "e-mail_1f4e7.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/eMail1F4E7Png.png"
+        },
+        {
+          "id": "oX-FtqgL65AoJ_3",
+          "name": "sparq-logo_125x.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sparqLogo125Xpng.png"
+        },
+        {
+          "id": "C21ln99HDRhUkdD",
+          "name": "footer-logo.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/footerLogopng.png"
+        },
+        {
+          "id": "0JGeA9wiqQzzAJw",
+          "name": "smoking_icon_ac8544ef-2a78-4a92-9740-ba3c7312e5c5_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/smokingIconAc8544Ef2A784A929740Ba3C7312E5C5480X480Png.png"
+        },
+        {
+          "id": "mpaNZmxN8Cjlbtp",
+          "name": "beaker_icon_09efe31c-b2e4-4c7f-8a8f-f564e86fe6e1_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/beakerIcon09Efe31CB2E44C7F8A8FF564E86Fe6E1480X480Png.png"
+        },
+        {
+          "id": "03T4F45TH2NVYgF",
+          "name": "pills_icon_73726148-c05b-4727-9378-2519623fd4a0_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/pillsIcon73726148C05B472793782519623Fd4A0480X480Png.png"
+        },
+        {
+          "id": "QYLNJNuMUXLYUU9",
+          "name": "recycle_icon_1607fa06-3a4b-4d0b-a0a6-1cd803b18c85_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/recycleIcon1607Fa063A4B4D0BA0A61Cd803B18C85480X480Png.png"
+        },
+        {
+          "id": "7g78JyL0VsdOot5",
+          "name": "product-sec-ban-1.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/productSecBan1Jpg.png"
+        },
+        {
+          "id": "E8nQ9cZoHSgHTUf",
+          "name": "Safety-Practices_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/safetyPractices480X480Png.png"
+        },
+        {
+          "id": "Gh3mSzulKX9fXNP",
+          "name": "Extensive_Scientific_Research_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/extensiveScientificResearch480X480Png.png"
+        },
+        {
+          "id": "qDd0IZStoUKetuM",
+          "name": "Environmentally-Responsible_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/environmentallyResponsible480X480Png.png"
+        },
+        {
+          "id": "f7wfeSCokC-432N",
+          "name": "Giving-Back_480x480.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/givingBack480X480Png.png"
+        },
+        {
+          "id": "tpHwy9GFJveoe6Y",
+          "name": "product-fuel_250x250@2x.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/productFuel250X2502Xjpg.png"
+        },
+        {
+          "id": "mUbdrZzD-YgB9vv",
+          "name": "product-pure_cca9dd58-d8da-49ac-b531-f6abd24468da_250x250@2x.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg.png"
+        },
+        {
+          "id": "e_qt00-RYdQwZ10",
+          "name": "product-melt_e5ee4b8c-b394-4dfa-969d-133320737857_250x250@2x.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg.png"
+        },
+        {
+          "id": "FfRqFCa12lCP2zz",
+          "name": "product-variety_1c2e7bd9-ac9c-4989-bfad-811526dad7e0_250x250@2x.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg.png"
+        },
+        {
+          "id": "lkj4u6mjuW1qUm0",
+          "name": "Packaging6Upright_09_FINAL-min_250x250@2x.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/packaging6Upright09FinalMin250X2502Xjpg.png"
+        },
+        {
+          "id": "ukURMhgo73F3dBJ",
+          "name": "shopify-secure-badge-light-shadow.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/shopifySecureBadgeLightShadowpng.png"
+        },
+        {
+          "id": "kmFF-83SC80dP8X",
+          "name": "label 5",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/label5.png"
+        },
+        {
+          "id": "SbWvvXa_m9MravF",
+          "name": "label 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/label2.png"
+        },
+        {
+          "id": "SMP9IFHsW4dVuEs",
+          "name": "label",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/label.png"
+        },
+        {
+          "id": "kWMHcWHoCdeeluN",
+          "name": "label 4",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/label4.png"
+        },
+        {
+          "id": "xPKQ5X3A6iC1LjT",
+          "name": "pills_icon_73726148-c05b-4727-9378-2519623fd4a0_480x480.png 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/pillsIcon73726148C05B472793782519623Fd4A0480X480Png2.png"
+        },
+        {
+          "id": "GX6AzXI0M5Lo993",
+          "name": "div",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/div.png"
+        },
+        {
+          "id": "PLPuBSj3ZAG1hKs",
+          "name": "5a18637b3a18271ae9cd636b_1_77c5b246-4f6c-4a1d-b6c8-5c4eb7fb4a85.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_5A18637B3A18271Ae9Cd636B177C5B2464F6C4A1DB6C85C4Eb7Fb4A85Png.png"
+        },
+        {
+          "id": "i2TLPDtlsTEA4Pe",
+          "name": "800px-Indiegogo_logo_87e824db-34f7-4415-9219-ab56dca36549.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_800PxIndiegogoLogo87E824Db34F744159219Ab56Dca36549Png.png"
+        },
+        {
+          "id": "MW_a-Otak-5Esk9",
+          "name": "1200px-Scientific_American_logo.svg_9440dc46-eee2-4228-b6a5-e91e5b0c8581.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_1200PxScientificAmericanLogosvg9440Dc46Eee24228B6A5E91E5B0C8581Png.png"
+        },
+        {
+          "id": "YCruqG_LOXQvrn9",
+          "name": "asfeaturedin4_9bda2aea-3ea9-4d3c-bd4f-7d2ad76ae608.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Png.png"
+        },
+        {
+          "id": "Wj3Mjc6wFc40xUs",
+          "name": "Entrepreneur_logo_484ccefe-4c85-4084-bc8c-12af7a590ec0.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Png.png"
+        },
+        {
+          "id": "sV4Vuxo6jfpUuJE",
+          "name": "confidencee_fdabb2f0-6360-4ed7-8f96-dc94bfa29f15.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/confidenceeFdabb2F063604Ed78F96Dc94Bfa29F15Png.png"
+        },
+        {
+          "id": "jnb2pcRRvF3lQm0",
+          "name": "promissory_700cba5a-b826-4b5c-8106-987450146e3b.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/promissory700Cba5AB8264B5C8106987450146E3Bpng.jpeg"
+        },
+        {
+          "id": "OozubYsJchZBBYp",
+          "name": "promissorylayer.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/promissorylayerpng.png"
+        },
+        {
+          "id": "HSxaJhU9lg5EAZb",
+          "name": "Group_8.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/group8Png.png"
+        },
+        {
+          "id": "djcg1sEb2hW9q4z",
+          "name": "moneybackleft.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/moneybackleftpng.png"
+        },
+        {
+          "id": "-wlv5w0yFq2WSfS",
+          "name": "moneybackright.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/moneybackrightpng.png"
+        },
+        {
+          "id": "Pw-LgxwHoP23REE",
+          "name": "Sparq_Logo_Final-03_1_-removebg-preview_3b7bc87c-264b-43d3-8992-4155c29d48c3.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Png.png"
+        },
+        {
+          "id": "zuEg9jrKOA5uGL6",
+          "name": "Sparq_box_animation_loop_shorter_version.gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sparqBoxAnimationLoopShorterVersiongif.png"
+        },
+        {
+          "id": "cwsFxjzrc0lRww8",
+          "name": "leftarr.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/leftarrpng.png"
+        },
+        {
+          "id": "5tcT-OEkPFA1Fpa",
+          "name": "rightarr.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/rightarrpng.png"
+        },
+        {
+          "id": "FWN0tJLSAGl4E8m",
+          "name": "paymentlogo.png 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/paymentlogopng2.png"
+        },
+        {
+          "id": "ww3F0UjqpW2JCpx",
+          "name": "Sparq_Logo_Final-03_1_1.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sparqLogoFinal0311Png.png"
+        },
+        {
+          "id": "skyvHkLyIFRx-GZ",
+          "name": "li",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/li.png"
+        },
+        {
+          "id": "-v3Ad2pjitb6Cqv",
+          "name": "paymentlogo.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/paymentlogopng.png"
+        },
+        {
+          "id": "4umFBGzzHbe1boO",
+          "name": "star.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/starpng.png"
+        },
+        {
+          "id": "bg64u141ODptR4M",
+          "name": "bannerrev_e286f026-53c5-463d-95e1-7d983a6a0996.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/bannerrevE286F02653C5463D95E17D983A6A0996Png.png"
+        },
+        {
+          "id": "CtOflfzgGhbjIdp",
+          "name": "My_project.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProjectpng.png"
+        },
+        {
+          "id": "PgNRl2mXnQglNrh",
+          "name": "My_project-2.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProject2Png.png"
+        },
+        {
+          "id": "RFEst31qQmkv4SQ",
+          "name": "My_project-5.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProject5Png.png"
+        },
+        {
+          "id": "jV2UxupMEmeLl8r",
+          "name": "My_project-3.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProject3Png.png"
+        },
+        {
+          "id": "-Sp_DfxGQ9xPz2-",
+          "name": "My_project-7.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProject7Png.png"
+        },
+        {
+          "id": "l0rn3PkwCcDE0ir",
+          "name": "My_project-6.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProject6Png.png"
+        },
+        {
+          "id": "fWi0nSvE7XGBkg1",
+          "name": "My_project-4.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/myProject4Png.png"
+        },
+        {
+          "id": "y2qwSzwzdtVnuRS",
+          "name": "promissoryitem1_cb038f04-1a2b-4c5b-af99-95014e9df68f.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fpng.png"
+        },
+        {
+          "id": "9vMm84_kh3SaqL2",
+          "name": "promissoryitem2_d1cae334-b4ca-4e4f-8fba-fc3f796c4042.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Png.png"
+        },
+        {
+          "id": "9CfnmxFMzVJR-YX",
+          "name": "promissoryitem3_674784dc-9a84-4f5a-8b80-175ce3e3f7c3.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Png.png"
+        },
+        {
+          "id": "ddiEyrwb5sE5qGw",
+          "name": "sidereview1.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sidereview1Png.png"
+        },
+        {
+          "id": "i8h5F7T21--D9f8",
+          "name": "sidereview2.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sidereview2Png.png"
+        },
+        {
+          "id": "jnVPTE5_LxrBVPO",
+          "name": "sidereview3.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sidereview3Png.png"
+        },
+        {
+          "id": "OO1BG_GHtJmFIuu",
+          "name": "3.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_3Png.png"
+        },
+        {
+          "id": "e82h0WSPWffK8yT",
+          "name": "6.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_6Png.png"
+        },
+        {
+          "id": "sXSg8ZEUKFknbqu",
+          "name": "getyourvitamin1.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/getyourvitamin1Png.png"
+        },
+        {
+          "id": "aKvpTARF2UH02aW",
+          "name": "verify.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/verifypng.png"
+        },
+        {
+          "id": "ofn6DAtOq98b6v6",
+          "name": "paymenticons.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/paymenticonspng.png"
+        },
+        {
+          "id": "NkSwpNLAAXFv6jP",
+          "name": "hand.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handpng.png"
+        },
+        {
+          "id": "iuu0b_AuXo0iZ2f",
+          "name": "freeship.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/freeshippng.png"
+        },
+        {
+          "id": "MvL1olP6CgjO9Vi",
+          "name": "hand.svg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg.bin"
+        },
+        {
+          "id": "AjXi--Xe9DEb3Ib",
+          "name": "hand.svg 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg2.bin"
+        },
+        {
+          "id": "PXXPOMpFTzjet7V",
+          "name": "hand.svg 3",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg3.bin"
+        },
+        {
+          "id": "6_fj4nkMNliMvt7",
+          "name": "hand.svg 4",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg4.bin"
+        },
+        {
+          "id": "caUKRJ6ubakX_ai",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/logopng.png"
+        },
+        {
+          "id": "KXECXV0il8Cvotd",
+          "name": "midbanner.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/midbannerjpg.jpeg"
+        },
+        {
+          "id": "9JR8KZVe-LiZjii",
+          "name": "review.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/reviewpng.png"
+        },
+        {
+          "id": "9YejG7U3rz1vPGL",
+          "name": "fingericon.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/fingericonpng.png"
+        },
+        {
+          "id": "aSslvr9HP0KHeHG",
+          "name": "star.png 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/starpng2.png"
+        },
+        {
+          "id": "NKqbw-9HTktKIrX",
+          "name": "nw-brandlogo.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/nwBrandlogopng.png"
+        },
+        {
+          "id": "jFiTi--UO57Ji7G",
+          "name": "li 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/li2.png"
+        },
+        {
+          "id": "39NsqaqZ3NYNf5N",
+          "name": "sidereview1.png 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sidereview1Png2.png"
+        },
+        {
+          "id": "o35_bDz_2UA3TJq",
+          "name": "sidereview2.png 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sidereview2Png2.png"
+        },
+        {
+          "id": "A9hIYaPtJTuu9e0",
+          "name": "div 3",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/div3.jpeg"
+        },
+        {
+          "id": "Uj00TWR6Nr1vW7E",
+          "name": "sidereview3.png 2",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/sidereview3Png2.png"
+        },
+        {
+          "id": "gZdfPyNCkt7W6L-",
+          "name": "prodimage.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/prodimagepng.png"
+        },
+        {
+          "id": "Rgg3sUb5hsW5kcL",
+          "name": "tick.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/tickpng.png"
+        },
+        {
+          "id": "gW_eLjtuHmo5CB9",
+          "name": "cross.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/crosspng.png"
+        },
+        {
+          "id": "tT2Awgk60GWXcXj",
+          "name": "paymentcard.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/paymentcardpng.png"
+        },
+        {
+          "id": "Xr-UVVC5HpulNcf",
+          "name": "div 4",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/div4.png"
+        },
+        {
+          "id": "VAICQ2EOYLHno8c",
+          "name": "Screenshot 2023-02-24 at 4.34.42 PM.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/screenshot20230224At43442PMpng.png"
+        },
+        {
+          "id": "ET-p5m74ancivlB",
+          "name": "1b8bd693-image1_1000000000000000000028.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_1B8Bd693Image11000000000000000000028Png.png"
+        },
+        {
+          "id": "7xFQVNeODmiiI7u",
+          "name": "4b6e6ed1-device.gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_4B6E6Ed1Devicegif.gif"
+        },
+        {
+          "id": "vBdC44nyrL25NR2",
+          "name": "6bb5e2f0-image3_1000000000000000000028.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_6Bb5E2F0Image31000000000000000000028Png.png"
+        },
+        {
+          "id": "HOyrTJ-B1C2QAPO",
+          "name": "12a7a7bb-testing-smaller-image_10yy0fa000000000000028 (1).png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_12A7A7BbTestingSmallerImage10Yy0Fa0000000000000281Png.png"
+        },
+        {
+          "id": "1JmXdRJjw4y-jA_",
+          "name": "7e469161-end_1000000000000000000028.png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_7E469161End1000000000000000000028Png.png"
+        },
+        {
+          "id": "qU1_WWqfD66PlZn",
+          "name": "Divider.svg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/dividersvg.bin"
+        },
+        {
+          "id": "x2QF8CsCuRT1hSo",
+          "name": "9b498fb8-rechargable-gif-1 (1).gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_9B498Fb8RechargableGif11Gif.gif"
+        },
+        {
+          "id": "Na1C87LKDfu5wC7",
+          "name": "fbfd287e-rechargable-gif-2 (1).gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/fbfd287ERechargableGif21Gif.gif"
+        },
+        {
+          "id": "AlZhomDfaggJIEi",
+          "name": "7048e521-hit-1_1000000000000000000028 (1).png",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/_7048E521Hit110000000000000000000281Png.png"
+        },
+        {
+          "id": "uhG4YZwybDKIp8i",
+          "name": "Silver Device - Outro.gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/silverDeviceOutrogif.gif"
+        },
+        {
+          "id": "vhVKMvd5DRIRuab",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit_2.jpg",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/ladybaguette2020Img3156Edit2Jpg.jpeg"
+        },
+        {
+          "id": "ZI1XWt9TeLDWME8",
+          "name": "hand.svg 5",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg5.bin"
+        },
+        {
+          "id": "NMzgZWxLNZ6QCxc",
+          "name": "hand.svg 6",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg6.bin"
+        },
+        {
+          "id": "PjIdb277w3Dv2Uj",
+          "name": "hand.svg 7",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg7.bin"
+        },
+        {
+          "id": "0B7vtIUuN5RjGZl",
+          "name": "hand.svg 8",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg8.bin"
+        },
+        {
+          "id": "wXQeUyuATjVmJas",
+          "name": "hand.svg 9",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg9.bin"
+        },
+        {
+          "id": "V0nXIDM9DuqAvQ8",
+          "name": "hand.svg 10",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg10.bin"
+        },
+        {
+          "id": "HLGI0hUHn5iLRYl",
+          "name": "hand.svg 11",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg11.bin"
+        },
+        {
+          "id": "P8B-ET-MhSYBIjC",
+          "name": "hand.svg 12",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg12.bin"
+        },
+        {
+          "id": "bfMtKSUEdUIfiwx",
+          "name": "hand.svg 13",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg13.bin"
+        },
+        {
+          "id": "0q48j9K8MFTPcvx",
+          "name": "hand.svg 14",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg14.bin"
+        },
+        {
+          "id": "gRIfYKqtFYwWbLK",
+          "name": "hand.svg 15",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg15.bin"
+        },
+        {
+          "id": "EYgpdYvw3KWwp4a",
+          "name": "hand.svg 16",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg16.bin"
+        },
+        {
+          "id": "eAvUPVG0rjI8mMX",
+          "name": "hand.svg 17",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg17.bin"
+        },
+        {
+          "id": "qUDEBW6IiKkqURQ",
+          "name": "hand.svg 18",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg18.bin"
+        },
+        {
+          "id": "QewVSHie8qKw269",
+          "name": "hand.svg 19",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg19.bin"
+        },
+        {
+          "id": "oQv0I6fw_fZBOD3",
+          "name": "hand.svg 20",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg20.bin"
+        },
+        {
+          "id": "YeE2WiO5DBm4mA4",
+          "name": "hand.svg 21",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg21.bin"
+        },
+        {
+          "id": "WHX682S3hPUy4G0",
+          "name": "hand.svg 22",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/handsvg22.bin"
+        },
+        {
+          "id": "KGz6WiTHhQkF8To",
+          "name": "disp gif.gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/dispGifgif.gif"
+        },
+        {
+          "id": "NE5-vrGf5zyiyxh",
+          "name": "disp gif I.gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/dispGifIgif.gif"
+        },
+        {
+          "id": "G9WpDVxLNjYxQSC",
+          "name": "Copy of disp gif II.gif",
+          "filePath": "../public/plasmic/blog_quittinghacks_com/images/copyOfDispGifIIgif.gif"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "Z_4Mg4kVjFFZY",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "agStGyHTeY6iA",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Eb1c4W44vP2jBTY",
+        "name": "Screen",
+        "projectId": "8EDHeoSc4qV4UnBikFWyHT",
+        "contextFilePath": "plasmic/blog_quittinghacks_com/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.217",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.217/dist/plasmic.schema.json"
+}

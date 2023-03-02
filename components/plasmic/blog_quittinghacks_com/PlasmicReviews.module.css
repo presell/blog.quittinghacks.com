@@ -1,0 +1,53 @@
+.div5 {
+  transform: translate(0px, -0.06299999999998818px);
+  width: 1306px;
+  height: 25px;
+  display: block;
+  position: relative;
+}
+.rated49StarsBy100000Customers {
+  position: absolute;
+  top: 1px;
+  left: 519px;
+  width: 400px;
+  height: 24px;
+  transform: translate(0.08500000000003638px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: #626262;
+  position: absolute;
+  left: 403px;
+  top: 4px;
+}
+@media (min-width: 320px) {
+  .text {
+    left: 106px;
+    font-size: 10px;
+    top: 6px;
+  }
+}
+@media (min-width: 414px) {
+  .text {
+    left: 142px;
+    top: 8px;
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .text {
+    width: 100%;
+    text-align: left;
+    left: 257px;
+    top: 5px;
+    min-width: 0;
+  }
+}
