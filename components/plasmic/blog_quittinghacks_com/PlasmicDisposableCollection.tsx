@@ -10793,9 +10793,9 @@ function PlasmicDisposableCollection__RenderFunc(props: {
               />
 
               <form
-                action={"https://www.sparqlife.com/collections/all" as const}
+                action={"" as const}
                 className={classNames(projectcss.all, sty.form__gs75J)}
-                method={"post" as const}
+                method={"" as const}
               >
                 <TextInput
                   data-plasmic-name={"textInput"}
