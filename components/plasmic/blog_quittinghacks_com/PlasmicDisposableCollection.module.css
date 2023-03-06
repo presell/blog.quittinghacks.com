@@ -24,7 +24,7 @@
 }
 @media (min-width: 414px) {
   ._440Px {
-    display: none;
+    display: block;
   }
 }
 @media (min-width: 768px) {
@@ -3629,9 +3629,14 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 414px) {
   ._1440Px {
     display: none;
+  }
+}
+@media (min-width: 768px) {
+  ._1440Px {
+    display: block;
   }
 }
 .div76 {
@@ -7728,7 +7733,7 @@
 }
 @media (min-width: 320px) {
   ._320Px {
-    display: none;
+    display: block;
   }
 }
 @media (min-width: 414px) {
@@ -11398,7 +11403,12 @@
 }
 @media (min-width: 320px) {
   .leads {
-    display: flex;
+    display: none;
+  }
+}
+@media (min-width: 414px) {
+  .leads {
+    display: none;
   }
 }
 @media (min-width: 768px) {

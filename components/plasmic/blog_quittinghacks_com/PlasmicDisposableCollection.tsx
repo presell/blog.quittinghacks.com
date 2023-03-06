@@ -3912,7 +3912,11 @@ function PlasmicDisposableCollection__RenderFunc(props: {
             </div>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "desktopOnly") ? true : false
+            hasVariant(globalVariants, "screen", "desktopOnly")
+              ? true
+              : hasVariant(globalVariants, "screen", "largestMobile")
+              ? true
+              : false
           ) ? (
             <div
               data-plasmic-name={"_1440Px"}
@@ -10757,7 +10761,9 @@ function PlasmicDisposableCollection__RenderFunc(props: {
             </div>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "smallestMobile")
+            hasVariant(globalVariants, "screen", "largestMobile")
+              ? true
+              : hasVariant(globalVariants, "screen", "smallestMobile")
               ? true
               : false
           ) ? (
